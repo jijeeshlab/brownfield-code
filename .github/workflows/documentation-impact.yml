@@ -1,0 +1,21 @@
+name: Documentation Impact Detection
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+
+  documentation-impact:
+
+    uses: jijeeshlab/Actions/.github/workflows/documentation-impact.yml@main
+
+    with:
+      documentation_repo: jijeeshlab/doc-as-code
+      documentation_dispatch_event: documentation_update_requested
+
+    secrets:
+      DOC_AUTOMATION_PAT: ${{ secrets.DOC_AUTOMATION_PAT }}
