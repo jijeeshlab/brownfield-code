@@ -1,25 +1,15 @@
 paths:
 
-  "src/deploy.py":
-    service: greenfield-network
-    docs:
-      - HLD
-      - LLD
-
-  "src/security_vault.py":
-    service: security-compliance
-    docs:
-      - HLD
-      - LLD
-
-  "src/migrate.py":
+  src/migrate.py:
     service: migration-platform
     docs:
       - HLD
       - LLD
+      - Migration
 
-  "src/capacity_calc.py":
+  src/capacity_calc.py:
     service: capacity-management
     docs:
       - HLD
       - LLD
+      - Operations
