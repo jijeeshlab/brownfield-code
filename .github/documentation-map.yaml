@@ -4,18 +4,22 @@ paths:
 
     service: migration-platform
 
-    hld:
-      docs/08-Migrations-and-Projects/migration-platform.md
+    docs:
+      - HLD
+      - LLD
 
-    lld:
-      docs/08-Migrations-and-Projects/migration-platform-lld.md
+    hld: docs/08-Migrations-and-Projects/migration-platform-hld.md
+
+    lld: docs/08-Migrations-and-Projects/migration-platform-lld.md
 
   src/capacity_calc.py:
 
     service: capacity-management
 
-    hld:
-      docs/05-Operations-and-Support/capacity-hld.md
+    docs:
+      - HLD
+      - LLD
 
-    lld:
-      docs/05-Operations-and-Support/capacity-lld.md
+    hld: docs/05-Operations-and-Support/03-User-Guides/capacity-management-hld.md
+
+    lld: docs/05-Operations-and-Support/03-User-Guides/capacity-management-lld.md
