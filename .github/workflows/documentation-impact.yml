@@ -22,4 +22,4 @@ jobs:
       documentation_dispatch_event: documentation_update_requested
 
     secrets:
-      DOC_AUTOMATION_PAT: ${{ secrets.DOC_AUTOMATION_PAT }}
+      DOC_AUTOMATION_PAT: ${{ secrets.CENTRAL_DOCS_TOKEN }}
